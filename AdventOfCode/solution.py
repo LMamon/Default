@@ -6,11 +6,10 @@ lines = file_code.splitlines()
 number = 0
 int_position_in_line = []
 for line in lines:
-    
-    for text in line:
-        if text.isdigit():
-            int_position_in_line.append(int(text))
-    number = int_position_in_line[0] + int_position_in_line[-1]
+    text_in_line = [int(char) for char in line if char.isdigit()]
+    print(line, text_in_line)
+    if text_in_line:
+        number += text_in_line[0] + text_in_line[-1]
 
             
 print(number)
