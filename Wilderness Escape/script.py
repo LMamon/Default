@@ -18,7 +18,6 @@ class TreeNode:
             chosen_index = int(choice) - 1
             chosen_child = story_node.choices(chosen_index)
 
-
 ######
 # VARIABLES FOR TREE
 ######
