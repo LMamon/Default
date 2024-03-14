@@ -17,7 +17,8 @@ class TreeNode:
                 continue
             chosen_index = int(choice) - 1
             chosen_child = story_node.choices(chosen_index)
-
+            print(chosen_child.story_piece)
+            story_node = chosen_child
 ######
 # VARIABLES FOR TREE
 ######
