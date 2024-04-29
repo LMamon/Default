@@ -6,6 +6,12 @@
             "driver": "SQLite",
             "name": "default table/db",
             "database": "${workspaceFolder:Default}/Table/friends.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Startups",
+            "database": "${workspaceFolder:Default}/Startup-trends/startups.db"
         }
     ]
 }
