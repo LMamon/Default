@@ -12,6 +12,12 @@
             "driver": "SQLite",
             "name": "Startups",
             "database": "${workspaceFolder:Default}/Startup-trends/startups.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "LyftTrips",
+            "database": "${workspaceFolder:Default}/LyftTrips/test.sqlite"
         }
     ]
 }
